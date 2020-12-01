@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundForm {
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.aboutForm {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.aboutForm h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(94, 93, 93);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutForm h3:before {
+  display: block;
+  width: 130px;
+  content: "";
+  border-bottom: 1px solid black;
+  bottom: -15px;
+  right: 0px;
+  position: relative;
+}
+
+.aboutForm h3:after {
+  display: block;
+  width: 130px;
+  content: "";
+  border-bottom: 1px solid black;
+  bottom: 15px;
+  left: 245px;
+  position: relative;
+}
+
+.aboutForm h5 {
+  opacity: 40%;
+  font-size: 15px;
+}
+
+.cardForm {
+  width: 20%;
+  height: 50%;
+  border: 1px solid rgb(194, 194, 194);
+  background-color: rgb(212, 212, 212);
+  padding: 0 20px;
+}
+
+.nameForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fname,
+#lname {
+  height: 35px;
+  width: 44%;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.infoForm {
+  margin: 20px 0;
+}
+
+#email,
+#pwd,
+#conpass {
+  height: 35px;
+  width: 99%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.checkbox {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+}
+
+.submitForm {
+  margin: 20px 0;
+}
+#submit {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#submit:hover {
+  border: 3px solid rgb(197, 250, 51);
+}
